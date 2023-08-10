@@ -35,8 +35,8 @@ export const getAnswer = createAsyncThunk(
       url: "https://text-translator2.p.rapidapi.com/translate",
       headers: {
         "content-type": "application/x-www-form-urlencoded",
-        "X-RapidAPI-Key": "855299a399mshdcb30b7c8be0282p1bce8ejsncc97bd0ed0d5",
-        "X-RapidAPI-Host": "text-translator2.p.rapidapi.com",
+        "X-RapidAPI-Key": //key,
+        "X-RapidAPI-Host": //host,
       },
       data: encodedParams,
     };
